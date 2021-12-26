@@ -1,0 +1,23 @@
+.listBlock {
+  list-style-type: none;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px;
+  font-weight: bold;
+  border-color: #b3b5b8;
+  border-style: solid;
+  list-style-position: inside;
+}
+.deleteimage {
+  height: 30px;
+  width: 30px;
+}
+.deleteButton {
+  background-color: transparent;
+  border: 0;
+}

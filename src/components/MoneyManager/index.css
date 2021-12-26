@@ -1,0 +1,106 @@
+.mainPage {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headingBlock {
+  height: 5%;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 13px;
+}
+
+.headingText {
+  padding-left: 15px;
+  margin-bottom: -20x;
+  font-size: 25px;
+}
+.wellcomeText {
+  padding-left: 15px;
+  color: #475569;
+  font-weight: bold;
+}
+.moneyText {
+  margin-top: -20px;
+  color: #0b69ff;
+  font-weight: bold;
+}
+.TransactionsContainer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FormContainer {
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px;
+  border-color: #b3b5b8;
+  border-style: solid;
+  border-radius: 10px;
+}
+label {
+  color: #475569;
+  margin: 5px;
+}
+input,
+select {
+  border-radius: 5px;
+  margin: 5px;
+  background-color: transparent;
+  border: 0.5px;
+  border-color: #475569;
+  border-style: solid;
+  padding: 5px;
+}
+
+.registerbtn {
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+  width: 60px;
+  background-color: #7c3aed;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+.TransactionDetailsContainer {
+  width: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px;
+  border-color: #b3b5b8;
+  border-style: solid;
+  border-radius: 10px;
+}
+.listBoc {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px;
+  font-weight: bold;
+  border-color: #b3b5b8;
+  border-style: solid;
+}
+.de {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}

@@ -1,0 +1,75 @@
+.mainContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.moneyContainerBalence {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 7%;
+  width: 25%;
+  background-color: #ecfccb;
+  border: 2px;
+  border-style: solid;
+  border-color: #84cc16;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 0px;
+}
+.MoneyImage {
+  height: 30%;
+  width: 30%;
+}
+.SpaneEleme {
+  color: #cbd5e1;
+}
+.balenceText {
+  margin-top: -3%;
+  margin-bottom: -3%;
+  color: #7e858e;
+}
+p {
+  font-weight: bold;
+}
+
+.moneyDetailsContainer {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.moneyContainerIncome {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 7%;
+  width: 25%;
+  background-color: #cffafe;
+  border: 2px;
+  border-style: solid;
+  border-color: #06b6d4;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 0px;
+}
+
+.moneyContainerExpenses {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 7%;
+  width: 25%;
+  background-color: #ede9fe;
+  border: 2px;
+  border-style: solid;
+  border-color: #7c3aed;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 0px;
+}
